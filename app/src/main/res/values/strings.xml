@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MusicStructureApp</string>
+    <string name="main_activity_info">Music Player App is a one of the projects from Udacity course.
+        In main menu we can easily maneuver between individual cards. We can check the all music list,
+        we can check specific albums, search our favorites music or check ranking of bests music.
+        In this activity I used CardView from external library called cardview-v7:25.3.1, it is a super useful view.
+        In this view we can easily put something awesome for example TextView.
+    </string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="music_activity_description">In this activity we can browse and listen our music.</string>
+    <string name="search_activity_description">In this activity we can search our favorite song, which can be
+    almost anything you like. You just need to write here in Search field and click a search button.
+    Then if you wrote you favorite song and clicked search button, you will be transferred to another
+    activity, where you gone see your favorite song! In this activity I used CardView from external library called cardview-v7:25.3.1, it is a super useful view.
+        In this view we can easily put something awesome for example TextView.</string>
+    <string name="ranking">Ranking</string>
+    <string name="music_player_app">Music Player App</string>
+    <string name="music">Music</string>
+    <string name="albums">Albums</string>
+    <string name="search">Search</string>
+    <string name="your_awesome_song_which_you_choose_is">Your awesome song which you choose is</string>
+    <string name="search_your_song">Search your song…</string>
+    <string name="previous">Previous</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="album_list">Album list</string>
+    <string name="play_music">Play music</string>
+    <string name="ranking_activity_description">In this activity we can easily check our favorite songs, and of course rate it
+    if we like this one. The rate scale is from 1-5. It is really easy to vote, we just need to clik on
+    stars how much we wanna rate it. In this activity I used CardView from external library called cardview-v7:25.3.1, it is a super useful view.
+        In this view we can easily put something awesome for example TextView. </string>
+    <string name="result_search_description">In this activity we can see which song user choose and in future
+    listen it with music player. In this activity I used CardView from external library called cardview-v7:25.3.1, it is a super useful view.
+        In this view we can easily put something awesome for example TextView.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="line_size_view">1dp</dimen>
+    <dimen name="scroll_view_margin">10dp</dimen>
+    <dimen name="text_size_of_text_views">19sp</dimen>
+    <dimen name="card_view_corner_radius">15dp</dimen>
+    <dimen name="standard_padding_10dp">10dp</dimen>
+    <dimen name="awesome_text_size">15sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="search_size">40sp</dimen>
+    <dimen name="search_song_text_size">20sp</dimen>
+    <dimen name="little_padding_2dp">2dp</dimen>
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="big_text_size">40sp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+</resources>

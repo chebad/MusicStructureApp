@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackBackgroud"
+    android:orientation="vertical"
+    tools:context="pl.chebad.bond.dam.musicstructureapp.AlbumActivity">
+
+    <TextView
+        style="@style/MainMenuTittle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin_5dp"
+        android:gravity="center"
+        android:text="@string/album_list"
+        android:textSize="@dimen/big_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <ListView
+        android:id="@+id/list_item_albums"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="@dimen/standard_padding_10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="@dimen/card_view_corner_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/music"
+                    tools:ignore="ContentDescription" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/scroll_view_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/standard_padding_10dp"
+                        android:text="@string/main_activity_info"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="@dimen/text_size_of_text_views" />
+                </ScrollView>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

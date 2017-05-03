@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackBackgroud"
+    android:orientation="vertical"
+    tools:context="pl.chebad.bond.dam.musicstructureapp.MainActivity">
+
+    <TextView
+        style="@style/MainMenuTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music_player_app" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <Button
+        android:id="@+id/music_button"
+        style="@style/ButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music"
+        android:textColor="@color/textview_clicked" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <Button
+        android:id="@+id/albums_button"
+        style="@style/ButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/albums"
+        android:textColor="@color/textview_clicked" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <Button
+        android:id="@+id/search_button"
+        style="@style/ButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textColor="@color/textview_clicked" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <Button
+        android:id="@+id/ranking_button"
+        style="@style/ButtonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ranking"
+        android:textColor="@color/textview_clicked" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/standard_padding_10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="@dimen/card_view_corner_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    tools:ignore="ContentDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/music" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/scroll_view_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/main_activity_info"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="@dimen/text_size_of_text_views" />
+                </ScrollView>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLineMainActivity">#545468</color>
+    <color name="unpressedButton">#fff</color>
+    <color name="pressedButton">#010853</color>
+    <color name="mainTextColor">#FFFFFF</color>
+    <color name="colorBlackBackgroud">#000000</color>
+</resources>
+
+
+

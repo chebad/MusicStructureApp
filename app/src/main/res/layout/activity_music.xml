@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="pl.chebad.bond.dam.musicstructureapp.MusicActivity">
+
+    <TextView
+        style="@style/MainMenuTittle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/play_music"
+        android:textSize="@dimen/big_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <ListView
+        android:id="@+id/list_item_music"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/little_padding_2dp"
+        android:text="@string/music_activity_description"
+        android:textColor="@color/mainTextColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_view"
+        android:background="@color/colorLineMainActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/previous_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="@dimen/standard_padding_10dp"
+            android:paddingTop="@dimen/padding_40dp"
+            android:text="@string/previous"
+            android:textColor="@color/mainTextColor"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/play_button"
+            android:gravity="center_horizontal|bottom"
+            android:padding="@dimen/standard_padding_10dp"
+            android:text="@string/play"
+            android:textColor="@color/mainTextColor" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/next_button"
+            android:gravity="center|bottom"
+            android:paddingBottom="@dimen/standard_padding_10dp"
+            android:paddingTop="@dimen/padding_40dp"
+            android:text="@string/next"
+            android:textColor="@color/mainTextColor" />
+    </LinearLayout>
+</LinearLayout>
